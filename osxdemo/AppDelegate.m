@@ -7,12 +7,36 @@
 //
 
 #import "AppDelegate.h"
+#import <WebKit/WebKit.h>
+
+@interface AppDelegate () <NSWindowDelegate>
+@property (nonatomic, retain) WebView *webView;
+@end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    self.window.delegate = self;
+    
+    self.webView = [[WebView alloc] initWithFrame:CGRectZero];
+    [self.webView setMainFrameURL:@"http://music.163.com"];
+    [self.window.contentView addSubview:self.webView];
+    [self windowDidResize:nil];
 }
+
+- (void)windowDidResize:(NSNotification *)notification
+{
+    CGSize windowSize = self.window.frame.size;
+    windowSize.height -= 20;
+    self.webView.frame = (CGRect){CGPointZero, windowSize};
+}
+
+- (BOOL)applicationShouldHandleReopen:(NSApplication *)theApplication hasVisibleWindows:(BOOL)flag
+{
+    [self.window makeKeyAndOrderFront:self];
+    return YES;
+}
+
 
 @end

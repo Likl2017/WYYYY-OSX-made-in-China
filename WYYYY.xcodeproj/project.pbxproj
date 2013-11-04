@@ -19,6 +19,7 @@
 		429A203618273AD500A3693C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 429A203418273AD500A3693C /* InfoPlist.strings */; };
 		429A203818273AD500A3693C /* osxdemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 429A203718273AD500A3693C /* osxdemoTests.m */; };
 		429A204218273C0000A3693C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429A204118273C0000A3693C /* WebKit.framework */; };
+		429A20461827761900A3693C /* wyyyyicon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 429A20451827761900A3693C /* wyyyyicon.iconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		429A203518273AD500A3693C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		429A203718273AD500A3693C /* osxdemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = osxdemoTests.m; sourceTree = "<group>"; };
 		429A204118273C0000A3693C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		429A20451827761900A3693C /* wyyyyicon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = wyyyyicon.iconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		429A200118273AD500A3693C = {
 			isa = PBXGroup;
 			children = (
+				429A20451827761900A3693C /* wyyyyicon.iconset */,
 				429A201318273AD500A3693C /* osxdemo */,
 				429A203118273AD500A3693C /* osxdemoTests */,
 				429A200C18273AD500A3693C /* Frameworks */,
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				429A201818273AD500A3693C /* InfoPlist.strings in Resources */,
+				429A20461827761900A3693C /* wyyyyicon.iconset in Resources */,
 				429A202618273AD500A3693C /* Images.xcassets in Resources */,
 				429A201E18273AD500A3693C /* Credits.rtf in Resources */,
 				429A202418273AD500A3693C /* MainMenu.xib in Resources */,

@@ -17,6 +17,10 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    NSRect frame = [self.window frame];
+    frame.size = CGSizeMake(1280, 768);
+    [self.window setFrame:frame display:YES animate:NO];
+    
     self.window.delegate = self;
     
     self.webView = [[WebView alloc] initWithFrame:CGRectZero];

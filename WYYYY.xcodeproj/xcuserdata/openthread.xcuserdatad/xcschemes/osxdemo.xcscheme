@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "429A200918273AD500A3693C"
                BuildableName = "osxdemo.app"
-               BlueprintName = "osxdemo"
-               ReferencedContainer = "container:osxdemo.xcodeproj">
+               BlueprintName = "WYYYY"
+               ReferencedContainer = "container:WYYYY.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "429A202A18273AD500A3693C"
                BuildableName = "osxdemoTests.xctest"
-               BlueprintName = "osxdemoTests"
-               ReferencedContainer = "container:osxdemo.xcodeproj">
+               BlueprintName = "WYYYYTests"
+               ReferencedContainer = "container:WYYYY.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "429A200918273AD500A3693C"
             BuildableName = "osxdemo.app"
-            BlueprintName = "osxdemo"
-            ReferencedContainer = "container:osxdemo.xcodeproj">
+            BlueprintName = "WYYYY"
+            ReferencedContainer = "container:WYYYY.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "429A200918273AD500A3693C"
             BuildableName = "osxdemo.app"
-            BlueprintName = "osxdemo"
-            ReferencedContainer = "container:osxdemo.xcodeproj">
+            BlueprintName = "WYYYY"
+            ReferencedContainer = "container:WYYYY.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "429A200918273AD500A3693C"
             BuildableName = "osxdemo.app"
-            BlueprintName = "osxdemo"
-            ReferencedContainer = "container:osxdemo.xcodeproj">
+            BlueprintName = "WYYYY"
+            ReferencedContainer = "container:WYYYY.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

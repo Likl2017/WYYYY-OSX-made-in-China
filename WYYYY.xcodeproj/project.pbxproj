@@ -32,23 +32,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		429A200A18273AD500A3693C /* osxdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = osxdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		429A200A18273AD500A3693C /* WYYYY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYYYY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		429A200D18273AD500A3693C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		429A201018273AD500A3693C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		429A201118273AD500A3693C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		429A201218273AD500A3693C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		429A201518273AD500A3693C /* osxdemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "osxdemo-Info.plist"; sourceTree = "<group>"; };
+		429A201518273AD500A3693C /* WYYYY-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WYYYY-Info.plist"; sourceTree = "<group>"; };
 		429A201718273AD500A3693C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		429A201918273AD500A3693C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		429A201B18273AD500A3693C /* osxdemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "osxdemo-Prefix.pch"; sourceTree = "<group>"; };
+		429A201B18273AD500A3693C /* WYYYY-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WYYYY-Prefix.pch"; sourceTree = "<group>"; };
 		429A201D18273AD500A3693C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		429A201F18273AD500A3693C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		429A202018273AD500A3693C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		429A202318273AD500A3693C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		429A202518273AD500A3693C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		429A202B18273AD500A3693C /* osxdemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = osxdemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		429A202B18273AD500A3693C /* WYYYYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYYYYTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		429A202C18273AD500A3693C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		429A203318273AD500A3693C /* osxdemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "osxdemoTests-Info.plist"; sourceTree = "<group>"; };
+		429A203318273AD500A3693C /* WYYYYTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WYYYYTests-Info.plist"; sourceTree = "<group>"; };
 		429A203518273AD500A3693C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		429A203718273AD500A3693C /* osxdemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = osxdemoTests.m; sourceTree = "<group>"; };
 		429A204118273C0000A3693C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -89,8 +89,8 @@
 		429A200B18273AD500A3693C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				429A200A18273AD500A3693C /* osxdemo.app */,
-				429A202B18273AD500A3693C /* osxdemoTests.xctest */,
+				429A200A18273AD500A3693C /* WYYYY.app */,
+				429A202B18273AD500A3693C /* WYYYYTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,10 +131,10 @@
 		429A201418273AD500A3693C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				429A201518273AD500A3693C /* osxdemo-Info.plist */,
+				429A201518273AD500A3693C /* WYYYY-Info.plist */,
 				429A201618273AD500A3693C /* InfoPlist.strings */,
 				429A201918273AD500A3693C /* main.m */,
-				429A201B18273AD500A3693C /* osxdemo-Prefix.pch */,
+				429A201B18273AD500A3693C /* WYYYY-Prefix.pch */,
 				429A201C18273AD500A3693C /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -152,7 +152,7 @@
 		429A203218273AD500A3693C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				429A203318273AD500A3693C /* osxdemoTests-Info.plist */,
+				429A203318273AD500A3693C /* WYYYYTests-Info.plist */,
 				429A203418273AD500A3693C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -161,9 +161,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		429A200918273AD500A3693C /* osxdemo */ = {
+		429A200918273AD500A3693C /* WYYYY */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 429A203B18273AD500A3693C /* Build configuration list for PBXNativeTarget "osxdemo" */;
+			buildConfigurationList = 429A203B18273AD500A3693C /* Build configuration list for PBXNativeTarget "WYYYY" */;
 			buildPhases = (
 				429A200618273AD500A3693C /* Sources */,
 				429A200718273AD500A3693C /* Frameworks */,
@@ -173,14 +173,14 @@
 			);
 			dependencies = (
 			);
-			name = osxdemo;
+			name = WYYYY;
 			productName = osxdemo;
-			productReference = 429A200A18273AD500A3693C /* osxdemo.app */;
+			productReference = 429A200A18273AD500A3693C /* WYYYY.app */;
 			productType = "com.apple.product-type.application";
 		};
-		429A202A18273AD500A3693C /* osxdemoTests */ = {
+		429A202A18273AD500A3693C /* WYYYYTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 429A203E18273AD500A3693C /* Build configuration list for PBXNativeTarget "osxdemoTests" */;
+			buildConfigurationList = 429A203E18273AD500A3693C /* Build configuration list for PBXNativeTarget "WYYYYTests" */;
 			buildPhases = (
 				429A202718273AD500A3693C /* Sources */,
 				429A202818273AD500A3693C /* Frameworks */,
@@ -191,9 +191,9 @@
 			dependencies = (
 				429A203018273AD500A3693C /* PBXTargetDependency */,
 			);
-			name = osxdemoTests;
+			name = WYYYYTests;
 			productName = osxdemoTests;
-			productReference = 429A202B18273AD500A3693C /* osxdemoTests.xctest */;
+			productReference = 429A202B18273AD500A3693C /* WYYYYTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 429A200518273AD500A3693C /* Build configuration list for PBXProject "osxdemo" */;
+			buildConfigurationList = 429A200518273AD500A3693C /* Build configuration list for PBXProject "WYYYY" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,8 +223,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				429A200918273AD500A3693C /* osxdemo */,
-				429A202A18273AD500A3693C /* osxdemoTests */,
+				429A200918273AD500A3693C /* WYYYY */,
+				429A202A18273AD500A3693C /* WYYYYTests */,
 			);
 		};
 /* End PBXProject section */
@@ -274,7 +274,7 @@
 /* Begin PBXTargetDependency section */
 		429A203018273AD500A3693C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 429A200918273AD500A3693C /* osxdemo */;
+			target = 429A200918273AD500A3693C /* WYYYY */;
 			targetProxy = 429A202F18273AD500A3693C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -389,10 +389,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "osxdemo/osxdemo-Prefix.pch";
-				INFOPLIST_FILE = "osxdemo/osxdemo-Info.plist";
+				GCC_PREFIX_HEADER = "osxdemo/WYYYY-Prefix.pch";
+				INFOPLIST_FILE = "osxdemo/WYYYY-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WYYYY;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -403,10 +403,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "osxdemo/osxdemo-Prefix.pch";
-				INFOPLIST_FILE = "osxdemo/osxdemo-Info.plist";
+				GCC_PREFIX_HEADER = "osxdemo/WYYYY-Prefix.pch";
+				INFOPLIST_FILE = "osxdemo/WYYYY-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WYYYY;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -426,9 +426,9 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "osxdemoTests/osxdemoTests-Info.plist";
+				INFOPLIST_FILE = "osxdemoTests/WYYYYTests-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WYYYYTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -445,9 +445,9 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "osxdemo/osxdemo-Prefix.pch";
-				INFOPLIST_FILE = "osxdemoTests/osxdemoTests-Info.plist";
+				INFOPLIST_FILE = "osxdemoTests/WYYYYTests-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WYYYYTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -456,7 +456,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		429A200518273AD500A3693C /* Build configuration list for PBXProject "osxdemo" */ = {
+		429A200518273AD500A3693C /* Build configuration list for PBXProject "WYYYY" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				429A203918273AD500A3693C /* Debug */,
@@ -465,21 +465,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		429A203B18273AD500A3693C /* Build configuration list for PBXNativeTarget "osxdemo" */ = {
+		429A203B18273AD500A3693C /* Build configuration list for PBXNativeTarget "WYYYY" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				429A203C18273AD500A3693C /* Debug */,
 				429A203D18273AD500A3693C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		429A203E18273AD500A3693C /* Build configuration list for PBXNativeTarget "osxdemoTests" */ = {
+		429A203E18273AD500A3693C /* Build configuration list for PBXNativeTarget "WYYYYTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				429A203F18273AD500A3693C /* Debug */,
 				429A204018273AD500A3693C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

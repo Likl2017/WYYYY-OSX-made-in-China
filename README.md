@@ -5,6 +5,6 @@ WYYYY-OSX-made-in-China
 
 Please compile this with Xcode5.
 
-Or you can download [Compiled binary](https://raw.github.com/OpenFibers/WYYYY-OSX-made-in-China/master/WYYYY.app.zip) to use.
+Or you can download [Compiled app](https://raw.github.com/OpenFibers/WYYYY-OSX-made-in-China/master/WYYYY.app.zip) for usage.
 
 ![Screen Shot 1](https://raw.github.com/OpenFibers/WYYYY-OSX-made-in-China/master/screenshot1.png "主界面")

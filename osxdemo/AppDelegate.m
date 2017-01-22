@@ -9,8 +9,9 @@
 #import "AppDelegate.h"
 #import <WebKit/WebKit.h>
 
-@interface AppDelegate () <NSWindowDelegate>
-@property (nonatomic, retain) WebView *webView;
+@interface AppDelegate () <NSWindowDelegate, WebFrameLoadDelegate>
+@property (nonatomic, strong) WebView *webView;
+@property (nonatomic, strong) NSStatusItem *statusBar;
 @end
 
 @implementation AppDelegate
@@ -18,15 +19,18 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     NSRect frame = [self.window frame];
-    frame.size = CGSizeMake(1280, 768);
+    frame.size = CGSizeMake(1050, 768);
     [self.window setFrame:frame display:YES animate:NO];
     
     self.window.delegate = self;
     
     self.webView = [[WebView alloc] initWithFrame:CGRectZero];
-    [self.webView setMainFrameURL:@"http://music.163.com"];
+    self.webView.frameLoadDelegate = self;
+    [self.webView setMainFrameURL:@"https://www.huobi.com/market/cny_btc"];
     [self.window.contentView addSubview:self.webView];
     [self windowDidResize:nil];
+    
+    [self initStatusBar];
 }
 
 - (void)windowDidResize:(NSNotification *)notification
@@ -42,5 +46,43 @@
     return YES;
 }
 
+- (void)webView:(WebView *)sender didReceiveTitle:(NSString *)title forFrame:(WebFrame *)frame
+{
+    if (frame == [sender mainFrame])
+    {
+        [[sender window] setTitle:title];
+        NSString *statusBarTitle = [[self class] priceFromHuobiWebSiteTitle:title];
+        [self updateStatusBarWithTitle:statusBarTitle];
+    }
+}
+
+- (void)initStatusBar
+{
+    //Init status bar icon
+    self.statusBar = [[NSStatusBar systemStatusBar] statusItemWithLength:83];
+    self.statusBar.highlightMode = NO;
+}
+
+- (void)updateStatusBarWithTitle:(NSString *)title
+{
+    self.statusBar.title = title;
+}
+
++ (NSString *)priceFromHuobiWebSiteTitle:(NSString *)huobiWebSiteTitle
+{
+    NSArray *array = [huobiWebSiteTitle componentsSeparatedByString:@" "];
+    for (NSString *string in array)
+    {
+        if ([string integerValue] != 0)
+        {
+            return [@"￥" stringByAppendingString:string];
+        }
+        else if ([string hasPrefix:@"￥"])
+        {
+            return string;
+        }
+    }
+    return @"loading...";
+}
 
 @end

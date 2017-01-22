@@ -164,9 +164,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		429A200918273AD500A3693C /* WYYYY */ = {
+		429A200918273AD500A3693C /* HB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 429A203B18273AD500A3693C /* Build configuration list for PBXNativeTarget "WYYYY" */;
+			buildConfigurationList = 429A203B18273AD500A3693C /* Build configuration list for PBXNativeTarget "HB" */;
 			buildPhases = (
 				429A200618273AD500A3693C /* Sources */,
 				429A200718273AD500A3693C /* Frameworks */,
@@ -176,7 +176,7 @@
 			);
 			dependencies = (
 			);
-			name = WYYYY;
+			name = HB;
 			productName = osxdemo;
 			productReference = 429A200A18273AD500A3693C /* WYYYY.app */;
 			productType = "com.apple.product-type.application";
@@ -226,7 +226,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				429A200918273AD500A3693C /* WYYYY */,
+				429A200918273AD500A3693C /* HB */,
 				429A202A18273AD500A3693C /* WYYYYTests */,
 			);
 		};
@@ -278,7 +278,7 @@
 /* Begin PBXTargetDependency section */
 		429A203018273AD500A3693C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 429A200918273AD500A3693C /* WYYYY */;
+			target = 429A200918273AD500A3693C /* HB */;
 			targetProxy = 429A202F18273AD500A3693C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -407,7 +407,7 @@
 				GCC_PREFIX_HEADER = "osxdemo/WYYYY-Prefix.pch";
 				INFOPLIST_FILE = "osxdemo/WYYYY-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.openthread.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.openthread.HB;
 				PRODUCT_NAME = WYYYY;
 				WRAPPER_EXTENSION = app;
 			};
@@ -422,7 +422,7 @@
 				GCC_PREFIX_HEADER = "osxdemo/WYYYY-Prefix.pch";
 				INFOPLIST_FILE = "osxdemo/WYYYY-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.openthread.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.openthread.HB;
 				PRODUCT_NAME = WYYYY;
 				WRAPPER_EXTENSION = app;
 			};
@@ -484,7 +484,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		429A203B18273AD500A3693C /* Build configuration list for PBXNativeTarget "WYYYY" */ = {
+		429A203B18273AD500A3693C /* Build configuration list for PBXNativeTarget "HB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				429A203C18273AD500A3693C /* Debug */,

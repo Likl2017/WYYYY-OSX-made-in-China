@@ -9,6 +9,11 @@
 #import "AppDelegate.h"
 #import <WebKit/WebKit.h>
 
+@interface WebPreferences (WebPreferencesPrivate)
+- (void)_setLocalStorageDatabasePath:(NSString *)path;
+- (void)setLocalStorageEnabled:(BOOL)localStorageEnabled;
+@end
+
 @interface AppDelegate () <NSWindowDelegate, WebFrameLoadDelegate>
 @property (nonatomic, strong) WebView *webView;
 @property (nonatomic, strong) NSStatusItem *statusBar;
@@ -31,6 +36,11 @@
     [self windowDidResize:nil];
     
     [self initStatusBar];
+    
+    WebPreferences* prefs = [WebPreferences standardPreferences];
+    [prefs _setLocalStorageDatabasePath:@"~/Library/Application Support/HB"];
+    [prefs setLocalStorageEnabled:YES];
+    [self.webView setPreferences:prefs];
 }
 
 - (void)windowDidResize:(NSNotification *)notification

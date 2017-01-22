@@ -61,8 +61,9 @@
     if (frame == [sender mainFrame])
     {
         [[sender window] setTitle:title];
-        NSString *statusBarTitle = [[self class] priceFromHuobiWebSiteTitle:title];
-        [self updateStatusBarWithTitle:statusBarTitle];
+        NSString *price = [[self class] priceFromHuobiWebSiteTitle:title];
+        [self updateStatusBarWithPrice:price];
+        [self updateBadgeWithPrice:price];
     }
 }
 
@@ -73,9 +74,27 @@
     self.statusBar.highlightMode = NO;
 }
 
-- (void)updateStatusBarWithTitle:(NSString *)title
+- (void)updateStatusBarWithPrice:(NSString *)price
 {
-    self.statusBar.title = title;
+    self.statusBar.title = price;
+}
+
+- (void)updateBadgeWithPrice:(NSString *)price
+{
+    if ([price hasPrefix:@"￥"])
+    {
+        price = [price substringFromIndex:[@"￥" length]];
+    }
+    if ([price hasPrefix:@"$"])
+    {
+        price = [price substringFromIndex:[@"$" length]];
+    }
+    NSUInteger dotRange = [price rangeOfString:@"."].location;
+    if (dotRange != NSNotFound)
+    {
+        price = [price substringToIndex:dotRange];
+    }
+    [[NSApplication sharedApplication].dockTile setBadgeLabel:price];
 }
 
 + (NSString *)priceFromHuobiWebSiteTitle:(NSString *)huobiWebSiteTitle

@@ -91,6 +91,10 @@
         {
             return string;
         }
+        else if ([string hasPrefix:@"$"])
+        {
+            return string;
+        }
     }
     return @"loading...";
 }
